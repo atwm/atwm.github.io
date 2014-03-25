@@ -1,0 +1,58 @@
+/*  main css sheet. (c) Andrew Maier
+ *
+ *  Background color stolen from John Gruber's daringfireball.net
+ *
+ *  Font combo by Joshua Johnson 
+ *  (http://designshack.net/articles/typography/10-more-great-google-font-combinations-you-can-copy/)
+ *
+ */
+  @import url(http://fonts.googleapis.com/css?family=Playfair+Display|Muli);
+
+body {
+    background-color: #4a525a;
+    color: #fff;
+    font: 400 16px/1.6  "Muli", "Verdana", "Helvetica",sans-serif;
+}
+
+p {
+    font: 400 16px/1.6  "Muli", "Verdana", "Helvetica",sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font: 400 60px/1.5 'Playfair Display', 'Georgia', serif;
+}
+
+article {
+    float: right;
+    width: 80%;
+    margin-top 0;
+    margin-left: 1.67em;
+    border-left: 1px solid black;
+    padding-top: 0;
+    padding-left: 1em;
+    padding-bottom: 20px;
+}
+
+
+aside {
+    padding-right: 2em;
+    margin-top: 0;
+    padding-top: 0;
+}
+aside h1 {
+    font: 400 30px/1.5 'Playfair Display', 'Georgia', serif;
+}
+h1 {
+    margin-top: 0;
+    padding-top:0;
+}
+
+
+footer {
+    clear: both;
+    padding-top: 1em;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
